@@ -1,0 +1,7 @@
+Contribuable (Ncont, Nom, Adr, Tel)
+Quittance (Nquit, DateQuit, Libelle, #Ncont)
+Taxes (Ntaxe, Type, Montant)
+PayerTaxe (Ncont, Ntaxe, Date, #Nquit)
+Declaration (Ndec, Libelle, Date, #Ncont)
+Amende (Namende, Libelle, Montant)
+PayerAmende (Ncont, Namende, Date)
